@@ -1,4 +1,4 @@
-# Pocket Ranger — Evaluating Matryoshka Representation Learning (MRL) in EmbeddingGemma
+# Pocket Ranger: Evaluating Matryoshka Representation Learning (MRL) in EmbeddingGemma
 
 This project investigates **Matryoshka Representation Learning (MRL)** behavior in Google’s **EmbeddingGemma** model. It evaluates how retrieval quality and representation compactness vary across embedding slice dimensions (128 / 256 / 512 / 768D) using a real-world National Parks corpus and FAISS-based retrieval. 
 The corpus is built using the U.S. National Park Service (NPS) public API, which provides structured data about park details, alerts, places, activities, campgrounds, and events. For this study, data was collected from Yosemite (YOSE), Sequoia (SEKI), and Grand Canyon (GRCA) national parks.
