@@ -191,5 +191,3 @@ $env:HF_TOKEN=$env:HUGGINGFACE_HUB_TOKEN
 
 **Author:** Samhitha Muvva
 
-**Objective:** Empirically evaluate EmbeddingGemma’s Matryoshka Representation Learning (MRL) across multi-dimensional embeddings using a domain-specific parks dataset.
-
