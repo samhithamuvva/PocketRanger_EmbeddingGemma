@@ -72,7 +72,6 @@ This produces:
 ### (c) Build Matryoshka Slices (FAISS Indices)
 
 ```powershell
-pip install faiss-cpu==1.8.0.post1 numpy==1.26.4
 python scripts\build_indices.py --embeddings artifacts\embeddings\parks_768_fp16.npy --meta artifacts\embeddings\meta.jsonl --out-dir artifacts\faiss --dims 128 256 512 768 --save-slices
 ```
 
@@ -109,7 +108,6 @@ Download your preferred model (choose one):
 
 ```powershell
 huggingface-cli download bartowski/gemma-2-2b-it-GGUF gemma-2-2b-it-Q8_0.gguf --local-dir ./models
-huggingface-cli download TheBloke/TinyLlama-1.1B-Chat-v1.0-GGUF tinyllama-1.1b-chat-v1.0.Q5_K_M.gguf --local-dir ./models
 ```
 
 These models are automatically loaded by the Streamlit interface for generation and response comparison.
