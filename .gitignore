@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+.env
+
+# Data
+data/*/          # ignore generated data
+!data/raw/.gitkeep
+!data/clean/.gitkeep
+
+# VS Code & OS
+.vscode/*.log
+.DS_Store
+Thumbs.db
+Repo/
+Repo/

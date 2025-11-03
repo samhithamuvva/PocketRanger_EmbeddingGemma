@@ -1,0 +1,25 @@
+# Cross‑platform default (CPU-friendly). If you have CUDA on Windows, use requirements-windows-cu121.txt instead.
+numpy==1.26.4
+ujson>=5.10.0
+requests>=2.32.0
+python-dotenv>=1.0.1
+psutil>=5.9
+regex>=2024.5.15
+
+# Core HF / training stack
+transformers>=4.45.0
+tokenizers>=0.20.0
+accelerate>=0.34.0
+huggingface-hub>=0.23.0
+sentence-transformers>=3.2.0
+scikit-learn>=1.4.0
+
+# Vector index
+faiss-cpu==1.8.0.post1
+
+# LLM local inference + UI
+llama-cpp-python>=0.2.90
+streamlit>=1.36.0
+
+# Torch (CPU by default via PyPI wheel)
+torch>=2.4.0
