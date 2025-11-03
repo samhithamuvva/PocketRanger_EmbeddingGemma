@@ -1,5 +1,5 @@
 
-````markdown
+````
 # Pocket Ranger — Evaluating Matryoshka Representation Learning (MRL) in EmbeddingGemma
 
 This project investigates **Matryoshka Representation Learning (MRL)** behavior in Google’s **EmbeddingGemma** model. It evaluates how retrieval quality and representation compactness vary across embedding slice dimensions (128 / 256 / 512 / 768D) using a real-world National Parks corpus and FAISS-based retrieval.
