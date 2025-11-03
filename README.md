@@ -1,4 +1,3 @@
----
 
 ````markdown
 # Pocket Ranger — Evaluating Matryoshka Representation Learning (MRL) in EmbeddingGemma
