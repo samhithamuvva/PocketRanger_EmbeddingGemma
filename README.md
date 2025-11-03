@@ -53,7 +53,6 @@ Activate your virtual environment and ensure the required library versions for *
 
 ```powershell
 .\.venv\Scripts\Activate.ps1
-python -m pip install -U pip && python -m pip install -U "transformers>=4.45.0" "tokenizers>=0.20.0" "accelerate>=0.34.0" && python -m pip install -U "sentence-transformers>=3.2.0" && python -m pip install -U torch --index-url https://download.pytorch.org/whl/cu121
 ```
 
 Then generate embeddings:
@@ -119,7 +118,6 @@ These models are automatically loaded by the Streamlit interface for generation 
 Install dependencies and run the overlap test:
 
 ```powershell
-pip install scikit-learn && pip install ujson
 python scripts\test_matryoshka_overlap.py
 ```
 
